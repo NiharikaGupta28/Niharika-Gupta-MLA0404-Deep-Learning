@@ -1,0 +1,12 @@
+# Multiple Features
+
+age = 4
+mileage = 50
+
+W1 = 2
+W2 = 0.5
+b = 1
+
+prediction = W1 * age + W2 * mileage + b
+
+print("Prediction =", prediction)
