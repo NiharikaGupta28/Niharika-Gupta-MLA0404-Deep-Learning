@@ -1,0 +1,11 @@
+# Methods to Reduce Loss
+
+methods = [
+    "Train for more epochs",
+    "Use a better optimizer (e.g., Adam)"
+]
+
+print("Ways to reduce loss:")
+
+for i, method in enumerate(methods, 1):
+    print(i, ".", method)
