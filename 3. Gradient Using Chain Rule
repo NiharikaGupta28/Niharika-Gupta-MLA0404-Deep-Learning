@@ -1,0 +1,12 @@
+# Gradient Calculation
+
+x = 4
+y = 15
+W = 2
+b = 1
+
+y_hat = W * x + b
+
+gradient_W = (y_hat - y) * x
+
+print("Gradient dL/dW =", gradient_W)
