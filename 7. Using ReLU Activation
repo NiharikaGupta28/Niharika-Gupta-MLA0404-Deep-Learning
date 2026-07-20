@@ -1,0 +1,17 @@
+# ReLU Activation
+
+x = 4
+W = 2
+b = 1
+
+z = W * x + b
+
+relu = max(0, z)
+
+print("z =", z)
+print("ReLU Output =", relu)
+
+if z > 0:
+    print("Gradient is unchanged because ReLU derivative = 1")
+else:
+    print("Gradient becomes 0")
