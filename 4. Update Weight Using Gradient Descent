@@ -1,0 +1,9 @@
+# Weight Update
+
+W = 2
+learning_rate = 0.1
+gradient_W = -24
+
+new_W = W - learning_rate * gradient_W
+
+print("Updated Weight =", new_W)
