@@ -1,0 +1,10 @@
+# Bias Update
+
+b = 1
+learning_rate = 0.1
+
+gradient_b = 9 - 15   # y_hat - y
+
+new_b = b - learning_rate * gradient_b
+
+print("Updated Bias =", new_b)
