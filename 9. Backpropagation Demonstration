@@ -1,0 +1,22 @@
+# Simple Backpropagation Example
+
+x = 4
+W = 2
+b = 1
+y = 15
+learning_rate = 0.1
+
+# Forward pass
+y_hat = W * x + b
+
+# Backward pass
+error = y_hat - y
+gradient_W = error * x
+gradient_b = error
+
+# Update
+W = W - learning_rate * gradient_W
+b = b - learning_rate * gradient_b
+
+print("Updated Weight =", W)
+print("Updated Bias =", b)
